@@ -1,0 +1,33 @@
+$white: #ffffff;
+$black: #000000;
+$black-grey: #454545; 
+$orange: #EDAD47;
+$orange-2: #D98704;
+$orange-3: #A76700;
+$blue: #7FD9FA;
+$green: #35B125;
+$red: #EA4343;
+$Montserrat: 'Montserrat', sans-serif;
+$Roboto: 'Roboto', sans-serif; 
+ 
+
+@mixin transition($transition...) {
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transform($transform...) {
+  -moz-transform: $transform;
+  -o-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+@mixin box-shadow($box-shadow...) {
+  -moz-box-shadow: $box-shadow;
+  -o-box-shadow: $box-shadow;
+  -webkit-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+}
